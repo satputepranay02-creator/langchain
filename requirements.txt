@@ -1,0 +1,26 @@
+# Core LangChain
+langchain>=0.3.0          # includes langchain-core automatically
+
+# Community integrations (loaders, etc.)
+langchain-community
+
+# HuggingFace embeddings
+langchain-huggingface
+sentence-transformers
+
+# Postgres / PGVector vector store
+langchain-postgres
+psycopg[binary]
+
+# PDF loading (PyPDFLoader)
+pypdf
+
+# Environment variable management
+python-dotenv
+
+# Jupyter kernel
+ipykernel
+
+# API server (deploy)
+fastapi
+uvicorn[standard]
